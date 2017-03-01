@@ -8,8 +8,8 @@ return array(
 
     'SHOW_PAGE_TRACE'        => false,                           // 是否显示调试面板
     'URL_CASE_INSENSITIVE'   => false,                           // url区分大小写
-    'TAGLIB_BUILD_IN'        => 'Cx,Common\Tag\My',              // 加载自定义标签
-    'LOAD_EXT_CONFIG'        => 'db,pay,oauth',               // 加载网站设置文件
+    'TAGLIB_BUILD_IN'        => 'Cx,Common\Tag\Tp',              // 加载自定义标签
+    'LOAD_EXT_CONFIG'        => 'db,pay,data,oauth',               // 加载网站设置文件
     'TMPL_PARSE_STRING'      => array(                           // 定义常用路径
         '__OSS__'            => CDN_URL,
         '__PUBLIC__'         => CDN_URL.__ROOT__.'/Public',
@@ -35,9 +35,10 @@ return array(
         'use_trans_sid'      => 1,//跨页传递
     ),
 //***********************************页面设置**************************************
-    'TMPL_EXCEPTION_FILE'    => APP_DEBUG ? THINK_PATH.'Tpl/think_exception.tpl' : './Template/default/Home/Public/404.html',
-    'TMPL_ACTION_ERROR'      => TMPL_PATH.'/Publicres/dispatch_jump.tpl', // 默认错误跳转对应的模板文件
-    'TMPL_ACTION_SUCCESS'    => TMPL_PATH.'/Publicres/dispatch_jump.tpl', // 默认成功跳转对应的模板文件
+    // 异常页面，可自定义
+    'TMPL_EXCEPTION_FILE'    => APP_DEBUG ? THINK_PATH.'Tpl/think_exception.tpl' : THINK_PATH.'Tpl/think_exception.tpl',
+    'TMPL_ACTION_ERROR'      => THINK_PATH . 'Tpl/dispatch_jump.tpl', // 错误跳转对应的模板文件，可自定义
+    'TMPL_ACTION_SUCCESS'    => THINK_PATH . 'Tpl/dispatch_jump.tpl', // 成功跳转对应的模板文件，可自定义
 
 //***********************************邮件服务器**********************************
     'EMAIL_FROM_NAME'        => '',   // 发件人

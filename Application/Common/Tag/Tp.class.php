@@ -3,7 +3,7 @@
 namespace Common\Tag;
 use Think\Template\TagLib;
 
-class My extends TagLib {
+class Tp extends TagLib {
     // 定义标签
     protected $tags=array(
         'jquery'=>array('','close'=>0),
