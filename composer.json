@@ -1,0 +1,22 @@
+{
+    "name": "frostsky/tpadmin",
+    "description": "the tpadmin",
+    "type": "framework",
+    "keywords": ["framework","tpadmin","ORM"],
+    "homepage": "https://github.com/frostsky/tpadmin",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "frostsky",
+            "email": "info@frostsky.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+        {"packagist": false}
+    ]
+}
