@@ -26,10 +26,10 @@
 13. Auth权限管理
 
 ## php整合使用说明
-大量常用的php工具及sdk已经整合；并写成函数；只要配置好各种key使用非常之方便；
-例如：send_email('邮箱','标题','内容'); 即可发送一封邮件
-设置好需要上传到oss的目录；使用upload('路径'); 用户上传文件时会自动上传到oss；并且可以选择是否在本地保留文件；
-更多功能可以查看 /Application/Common/Common/function.php 等源代码
+大量常用的php工具及sdk已经整合；并写成函数；只要配置好各种key使用非常之方便；    
+例如：send_email('邮箱','标题','内容'); 即可发送一封邮件    
+设置好需要上传到oss的目录；使用upload('路径'); 用户上传文件时会自动上传到oss；并且可以选择是否在本地保留文件；    
+更多功能可以查看 /Application/Common/Common/function.php 等源代码    
 
 ## 前端整合
 1. boostrap、sui、framework7、frozenui等前端框架；
