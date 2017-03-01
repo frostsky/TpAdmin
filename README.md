@@ -38,11 +38,11 @@
 4. font-awesome、animate.css；
 
 ## 前端使用说明
-大量常用的框架及插件已经整合并且加入标签库；在html页面中中只需要很简单的代码就可以引入；
-例如：   `<ueditor name="content" />` 这样一个简单的标签就可以将editor编辑器引入并设置name名为content;
-提交post时后台即可通过content字段直接获取到内容；
-`<jquery />`标签可引入jQuery
-更多标签可以查看 /Application/Common/Tag/Tp.class.php 源代码
+大量常用的框架及插件已经整合并且加入标签库；在html页面中中只需要很简单的代码就可以引入；    
+例如：   `<ueditor name="content" />` 这样一个简单的标签就可以将editor编辑器引入并设置name名为content;   
+提交post时后台即可通过content字段直接获取到内容；    
+`<jquery />`标签可引入jQuery   
+更多标签可以查看 /Application/Common/Tag/Tp.class.php 源代码   
 
 ## 商业友好的开源协议
 tpadmin遵循Apache2开源协议发布。Apache Licence是著名的非盈利开源组织Apache采用的协议。该协议和BSD类似，鼓励代码共享和尊重原作者的著作权，同样允许代码修改，再作为开源或商业软件发布。
